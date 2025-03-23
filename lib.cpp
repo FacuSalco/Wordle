@@ -74,38 +74,25 @@ bool intento_valido(const string &intento, const string &palabra_secreta, const 
 
 vector<EstadoLetra> evaluar_intento(const string &intento, const string &palabra_secreta)
 {
-    vector<EstadoLetra> feedback = {};
-    int i = 0;
-    while (i < intento.size())
+    vector<EstadoLetra> feedback(intento.length(), EstadoLetra::NoPresente);
+    for (size_t i = 0; i < intento.size(); ++i)
     {
         if (intento[i] == palabra_secreta[i])
         {
-            feedback.push_back(EstadoLetra::LugarCorrecto);
-            i++;
-            continue;
+            feedback[i] = EstadoLetra::LugarCorrecto;
         }
         else
         {
-            int j = 0;
-            bool found = false;
-            while (j < intento.size())
+            for (size_t j = 0; j < palabra_secreta.size(); ++j)
             {
                 if (intento[i] == palabra_secreta[j])
                 {
-                    feedback.push_back(EstadoLetra::LugarIncorrecto);
-                    found = true;
+                    feedback[i] = EstadoLetra::LugarIncorrecto;
                     break;
                 }
-                j++;
-            }
-            if (!found)
-            {
-                feedback.push_back(EstadoLetra::NoPresente);
             }
         }
-        i++;
     }
-    cout << endl;
     return feedback;
 }
 

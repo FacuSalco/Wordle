@@ -1,0 +1,16 @@
+WordleTests.ListadoVacio 0 0
+WordleTests.ListadoLleno 1 0.297311
+WordleTests.IntentoValidoValido 1 0.0423926
+WordleTests.IntentoValidoTamanioInvalido 1 0.0515468
+WordleTests.IntentoValidoPalabraNoEnListado 1 0.0411546
+WordleTests.EvaluarIntento1 1 0.0648523
+WordleTests.EvaluarIntento2 1 0.0629443
+WordleTests.EvaluarIntentoTodoNoPresente 1 0.0695143
+WordleTests.EvaluarIntentoTodoCorrecto 1 0.0497547
+WordleTests.EvaluarIntentoTodoLugarIncorrecto 1 0.0422259
+WordleTests.RespuestaEnStr1 1 0.0743029
+WordleTests.RespuestaEnStr2 1 0.0426771
+WordleTests.RespuestaEnStrTodoNoPresente 1 0.0755659
+WordleTests.RespuestaEnStrTodoCorrecto 1 0.0990756
+WordleTests.RespuestaEnStrTodoLugarIncorrecto 1 0.0920165
+---

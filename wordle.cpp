@@ -37,8 +37,8 @@ int main()
         }
         string result = respuesta_en_string(evaluar_intento(inputWord, secretWord));
         cout << result << endl;
-        cout << "Te quedan " << attempts << " intentos" << endl;
         attempts--;
+        cout << "Te quedan " << attempts << " intentos" << endl;
     }
     if (attempts == 0)
     {

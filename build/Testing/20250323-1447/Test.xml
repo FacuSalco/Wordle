@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250323-1447-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="a5edfcae0def"
+	OSRelease="5.15.167.4-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Tue Nov 5 00:21:55 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="1024"
+	TotalPhysicalMemory="3840"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2712"
+	>
+	<Testing>
+		<StartDateTime>Mar 23 15:12 UTC</StartDateTime>
+		<StartTestTime>1742742746</StartTestTime>
+		<TestList>
+			<Test>./WordleTests.RespuestaEnStrTodoLugarIncorrecto</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>WordleTests.RespuestaEnStrTodoLugarIncorrecto</Name>
+			<Path>.</Path>
+			<FullName>./WordleTests.RespuestaEnStrTodoLugarIncorrecto</FullName>
+			<FullCommandLine>/workspaces/wordle/build/tests "--gtest_filter=WordleTests.RespuestaEnStrTodoLugarIncorrecto" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0920165</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/workspaces/wordle/build/tests "--gtest_filter=WordleTests.RespuestaEnStrTodoLugarIncorrecto" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVUMFqwzAMvfsrdGwOSdbroIfBSikb3Ug6dgihuI4azBwr2PL6+4uTUrLBoNXpyXp6en5FsFbbFjqp7SKBk6MO8jO5L99LhT7CxmB+DNo0+aHB3uctUWuQ0XPqnZq1+dhGdIhymVJiR4yPsBkpsB8mcNKG0cEKPkfl+OazAn0fBiTXtmS3p4ZeQyvd1ipyDhWTqFbXqqG4mF4Cj5LR9AX7oBkzUaXXqmFj6CjNNEf7rR3ZDu3ARU5D/4c815xZFBUUHzsYq77X+7QGby/3rsLiATqf3ORw4gITS5OI2xJglC5t6Gx/5/tfruCkzWCxnN0Z/vb+VJbr5xjLxM3EDzspxvg=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 23 15:12 UTC</EndDateTime>
+		<EndTestTime>1742742746</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
