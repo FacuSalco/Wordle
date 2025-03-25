@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2712"
 	>
 	<Testing>
-		<StartDateTime>Mar 23 15:12 UTC</StartDateTime>
-		<StartTestTime>1742742746</StartTestTime>
+		<StartDateTime>Mar 23 15:21 UTC</StartDateTime>
+		<StartTestTime>1742743319</StartTestTime>
 		<TestList>
 			<Test>./WordleTests.RespuestaEnStrTodoLugarIncorrecto</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>/workspaces/wordle/build/tests "--gtest_filter=WordleTests.RespuestaEnStrTodoLugarIncorrecto" "--gtest_also_run_disabled_tests"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0920165</Value>
+					<Value>0.0362935</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -51,12 +51,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyVUMFqwzAMvfsrdGwOSdbroIfBSikb3Ug6dgihuI4azBwr2PL6+4uTUrLBoNXpyXp6en5FsFbbFjqp7SKBk6MO8jO5L99LhT7CxmB+DNo0+aHB3uctUWuQ0XPqnZq1+dhGdIhymVJiR4yPsBkpsB8mcNKG0cEKPkfl+OazAn0fBiTXtmS3p4ZeQyvd1ipyDhWTqFbXqqG4mF4Cj5LR9AX7oBkzUaXXqmFj6CjNNEf7rR3ZDu3ARU5D/4c815xZFBUUHzsYq77X+7QGby/3rsLiATqf3ORw4gITS5OI2xJglC5t6Gx/5/tfruCkzWCxnN0Z/vb+VJbr5xjLxM3EDzspxvg=</Value>
+					<Value encoding="base64" compression="gzip">eJyVUMFqwzAMvfsrdGwOSbbroIfBSikb3Ug6dgihuI4azBwr2PL6+4uTUtLBoNXpyXp6en5FsFbbFjqp7SKBo6MO8hO5b99LhT7CxmB+CNo0+b7B3uctUWuQ0XPqnZq1+dhGtI9ymVJiS4xPsB4psBsmcNSG0cESvkbl+OazAn0fBiRXtmS3o4beQivdxipyDhWTqJaXqqE4m34EHiWj6TP2QTNmokovVcPa0EGaaY72RzuyHdqBi5yG/g95rjmzKCooPrcwVn2v92kN3l/vXYXFA3Q+ucnhxAUmliYRtyXAKF3a0Mle5/tfruCkza7vDH/7eC7L1UuMZeJm4hc7CMb3====</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Mar 23 15:12 UTC</EndDateTime>
-		<EndTestTime>1742742746</EndTestTime>
+		<EndDateTime>Mar 23 15:21 UTC</EndDateTime>
+		<EndTestTime>1742743319</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

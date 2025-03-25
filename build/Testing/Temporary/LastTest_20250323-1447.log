@@ -1,10 +1,10 @@
-Start testing: Mar 23 15:12 UTC
+Start testing: Mar 23 15:21 UTC
 ----------------------------------------------------------
 15/15 Testing: WordleTests.RespuestaEnStrTodoLugarIncorrecto
 15/15 Test: WordleTests.RespuestaEnStrTodoLugarIncorrecto
 Command: "/workspaces/wordle/build/tests" "--gtest_filter=WordleTests.RespuestaEnStrTodoLugarIncorrecto" "--gtest_also_run_disabled_tests"
 Directory: /workspaces/wordle/build
-"WordleTests.RespuestaEnStrTodoLugarIncorrecto" start time: Mar 23 15:12 UTC
+"WordleTests.RespuestaEnStrTodoLugarIncorrecto" start time: Mar 23 15:21 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /workspaces/wordle/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -17,14 +17,14 @@ Note: Google Test filter = WordleTests.RespuestaEnStrTodoLugarIncorrecto
 [----------] 1 test from WordleTests (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"WordleTests.RespuestaEnStrTodoLugarIncorrecto" end time: Mar 23 15:12 UTC
+"WordleTests.RespuestaEnStrTodoLugarIncorrecto" end time: Mar 23 15:21 UTC
 "WordleTests.RespuestaEnStrTodoLugarIncorrecto" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 23 15:12 UTC
+End testing: Mar 23 15:21 UTC

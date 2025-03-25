@@ -26,7 +26,8 @@ vector<string> cargar_listado(const string &nombre_archivo)
     if (listado.empty())
     {
         cout << "El archivo " << nombre_archivo << " está vacío." << endl;
-        exit(EXIT_FAILURE);
+        // exit(EXIT_FAILURE);
+        return (listado);
     }
 
     return listado;
