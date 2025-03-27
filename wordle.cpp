@@ -15,7 +15,7 @@ int main()
     // ELEGIR PALABRA SECRETA
     srand(time(0));
     string secretWord = wordsList[rand() % wordsList.size()];
-    cout << "La palabra secreta es: " << secretWord << endl;
+    // cout << "La palabra secreta es: " << secretWord << endl;
     cout << "La palabra secreta tiene " << secretWord.length() << " letras." << endl;
 
     // INTENTOS

@@ -13,7 +13,7 @@ vector<string> cargar_listado(const string &nombre_archivo)
 
     if (!inputFile.good())
     {
-        cout << "No se pudo abrir el archivo " << nombre_archivo << endl;
+        // cout << "No se pudo abrir el archivo " << nombre_archivo << endl;
         exit(EXIT_FAILURE);
     }
     string line;
@@ -25,7 +25,7 @@ vector<string> cargar_listado(const string &nombre_archivo)
 
     if (listado.empty())
     {
-        cout << "El archivo " << nombre_archivo << " está vacío." << endl;
+        // cout << "El archivo " << nombre_archivo << " está vacío." << endl;
         // exit(EXIT_FAILURE);
         return (listado);
     }
